@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 set -eu
 
-URL="https://raw.githubusercontent.com/wickedgang/hermes-webui-ko/main/ko/i18n.js"
+URL="https://raw.githubusercontent.com/wickedgangster/hermes-webui-ko/main/ko/i18n.js"
 TARGET="${1:-./static/i18n.js}"
 
 if [ ! -f "$TARGET" ]; then

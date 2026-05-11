@@ -1,6 +1,6 @@
 $ErrorActionPreference = "Stop"
 
-$Url = "https://raw.githubusercontent.com/wickedgang/hermes-webui-ko/main/ko/i18n.js"
+$Url = "https://raw.githubusercontent.com/wickedgangster/hermes-webui-ko/main/ko/i18n.js"
 $Target = Join-Path (Get-Location) "static\i18n.js"
 
 if (!(Test-Path $Target)) {
